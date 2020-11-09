@@ -1,0 +1,63 @@
+.listmax {
+  margin-top: 50px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  background: #f3f3f3;
+  display: inline-block;
+}
+
+.listmax-wrapper {
+  padding: 10px;
+  overflow-y: auto;
+  width: 400px;
+  height: 300px;
+}
+
+.listmax-title {
+  text-align: left;
+}
+
+.listmax-title-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.listmax-ul {
+  list-style: none;
+}
+
+.listmax-li {
+  width: 330px;
+  padding: 5px;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  background: #fff;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.listmax-input {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 65px;
+  width: 280px;
+  height: 20px;
+  border: 1px solid gainsboro;
+  outline: none;
+  border-radius: 3px;
+}
+
+.listmax-btn-b {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listmax-btn {
+  background: #1472ac;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
